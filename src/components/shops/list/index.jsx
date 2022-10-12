@@ -65,7 +65,7 @@ const ShopsList = () => {
     }, [])
     return(
         <div>
-            <Row xs={1} md={4} className="g-4">
+            <Row xs={1} md={6} className="g-4">
                 {(businesses?.map((eachBusiness) => (
                     <Col>
                         <Card key={eachBusiness.id} style={{ width: '18rem' }}>
